@@ -18,7 +18,7 @@
   ],
   "require": {
     "php": ">=5.5",
-    "evenement/evenement": "^3.0",
+    "evenement/evenement": "2.1.0",
     "monolog/monolog": "1.25.2",
     "psr/log": "^1.1",
     "symfony/process": "^5.0"
