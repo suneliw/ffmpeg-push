@@ -1,8 +1,8 @@
 {
-  "name": "yueshang/ffmpeg-push",
+  "name": "suneliw/ffmpeg-push",
   "type": "library",
   "description": "Push video stream to live server with ffmpeg binary",
-  "homepage": "https://github.com/iyueshng/ffmpeg-push",
+  "homepage": "https://github.com/suneliw/ffmpeg-push",
   "keywords": [
     "binary",
     "ffmpeg",
@@ -12,8 +12,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "yueshang",
-      "email": "81280@163.com"
+      "name": "suneliw",
+      "email": "30940246@qq.com"
     }
   ],
   "require": {
