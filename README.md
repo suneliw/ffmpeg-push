@@ -13,8 +13,14 @@ composer require "suneliw/ffmpeg-push"
 ### First
 
   * Install [ffmpeg](http://ffmpeg.org/download.html)，and must include the `ffprobe`command at the same time
-  * Configure the executable directory to the environment variable PATH
- 
+  * Configure the executable directory to the environment variable PATH or use config
+  
+  ```php
+    $pushCmd = PushVideo::create([
+            'ffmpeg.binaries'  => '/usr/bin/ffmpeg',   //指定依赖软件路径
+            'ffprobe.binaries' => '/usr/bin/ffprobe'
+        ]);
+ ```
  
  
 >>  * 安装[ffmpeg](http://ffmpeg.org/download.html)，必须同时包含`ffprobe`命令
